@@ -9,9 +9,12 @@
 		https://build.phonegap.com/docs/config-xml -->
 
     <!-- versionCode is optional and Android only -->
-    <preference name="phonegap-version" value="3.0.0" />
+    <preference name="phonegap-version" value="3.1.0" />
 
     <preference name="orientation" value="landscape" />
+	
+	<!-- this app will have no device api access -->
+	<preference name="permissions" value="none"/>
 	
 	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
 	<icon src="img/icon/ldpi.png" gap:platform="android" gap:density="ldpi" />
