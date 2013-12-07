@@ -9,14 +9,9 @@
 		https://build.phonegap.com/docs/config-xml -->
 
     <!-- versionCode is optional and Android only -->
-    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="phonegap-version" value="3.0.0" />
 
     <preference name="orientation" value="landscape" />
-	
-	<!-- this app will have no device api access -->
-	<preference name="permissions" value="none"/>
-
-	<plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
 	
 	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
 	<icon src="img/icon/ldpi.png" gap:platform="android" gap:density="ldpi" />
@@ -25,14 +20,6 @@
 	<icon src="img/icon/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
 	<!-- the default splash screen to use -->
-
-	<!-- Android -->
-	<preference name="splash-screen-duration" value="10000"/>
-
-	<gap:splash src="img/screen/ldpi.png" gap:platform="android" gap:density="ldpi" />
-	<gap:splash src="img/screen/mdpi.png" gap:platform="android" gap:density="mdpi" />
-	<gap:splash src="img/screen/hdpi.png" gap:platform="android" gap:density="hdpi" />
-	<gap:splash src="img/screen/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
     <name>Akij Ceramics</name>
 
